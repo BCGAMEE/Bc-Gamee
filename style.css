@@ -1,0 +1,121 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #292929;
+}
+
+.container {
+  position: relative;
+}
+
+
+
+.brand {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 36px;
+  color: #00ac06;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.contact h3{
+  color: #00ac06;
+
+}
+.lone {
+  color: rgb(255, 255, 0); /* Replace "yourDesiredColor" with the color you want */
+}
+
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.contact {
+  background-color: #292929; /* Change box color to gray */
+  padding: 20px;
+  border-radius: 10px;
+ 
+  margin-top: 30%;
+}
+
+
+.contact h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.contact h4{
+  color: #00ac06;
+  text-align: center;
+}
+
+
+.contact form {
+  width: 100%; /* Ensure the form takes up the full width */
+}
+
+.contact form p {
+  width: 100%;
+  color: #000000;
+  margin: 10px 0;
+}
+
+
+.contact form label {
+  display: block;
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+  margin-bottom: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.contact form input[type="password"],
+.contact form input[type="email"],
+.contact form input[type="text"] {
+  width: calc(100% - 22px); /* Adjusted width to fit within the box */
+  padding: 10px;
+ 
+  color: #ffffff;
+  text-emphasis-color: white;
+  border: 1px solid #0bac00;
+  border-radius: 3px;
+  background-color: #161616;
+  margin: 5px 0; /* Add margin to separate inputs */
+}
+
+.contact form .full {
+  width: 100%;
+}
+
+
+.contact form button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #00ac06;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 3px;
+ 
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px; /* Add margin to separate button from inputs */
+}
+
+.contact form button[type="submit"]:hover {
+  background-color: #39863c;
+}
+
+.alert {
+  text-align: center;
+  color: green;
+  display: none;
+  margin-top: 10px;
+}
+
+.alert.show {
+  display: block;
+}
